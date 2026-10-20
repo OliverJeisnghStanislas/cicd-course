@@ -5,6 +5,6 @@ import App from './App'
 it('renders the main heading', () => {
   render(<App />)
   expect(
-    screen.getByRole('heading', { level: 1, name: 'Get started' })
+    screen.getByRole('heading', { level: 1, name: 'Hello World' })
   ).toBeTruthy()
 })
